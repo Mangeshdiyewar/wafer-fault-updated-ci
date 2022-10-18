@@ -166,6 +166,8 @@
               only:
                 - main
     
+ 'to create requirements.txt'
+ 
     
     
     
