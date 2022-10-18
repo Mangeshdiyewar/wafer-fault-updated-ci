@@ -170,9 +170,39 @@
  
      pip freeze>requirements.txt
     
+  initialize git repo
+  
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin <github_url>
+    git push -u origin main
+    
+ create a account at circle ci
+ 
+    https://circleci.com/
     
     
+ setup your project
     
+    https://app.circleci.com/pipelines/github/Mangeshdiyewar/wafer-fault-updated-ci/10/workflows/eff8447a-f419-4923-beb2-3e8caaef3ab0/jobs/15
+    
+ 
+ Select project setting in CircleCI and below environment variable
+  
+     DOCKERHUB_USER
+    DOCKER_HUB_PASSWORD_USER
+    HEROKU_API_KEY
+    HEROKU_APP_NAME
+    HEROKU_EMAIL_ADDRESS
+    DOCKER_IMAGE_NAME=wafercircle3270303
+    
+  to update the modification
+  
+    git add .
+    git commit -m "proper message"
+    git push 
     
     
     
