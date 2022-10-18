@@ -83,6 +83,10 @@
     ENTRYPOINT [ "python" ]
     CMD [ "main.py" ]
     
+'Create a "Procfile" with following content'
+
+    web: gunicorn main:app
+      
     
     
     
