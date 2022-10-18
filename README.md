@@ -168,6 +168,7 @@
     
  'to create requirements.txt'
  
+     pip freeze>requirements.txt
     
     
     
