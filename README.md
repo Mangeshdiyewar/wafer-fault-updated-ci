@@ -74,14 +74,14 @@
      Clustering: KMeans algorithm is used to create clusters in the preprocessed data. The optimum number of clusters 
      is selected
  
-'''Create a file "Dockerfile" with below content'''
+'Create a file "Dockerfile" with below content'
     
     FROM python:3.7
-COPY . /app
-WORKDIR /app
-RUN pip install -r requirements.txt
-ENTRYPOINT [ "python" ]
-CMD [ "main.py" ]
+    COPY . /app
+    WORKDIR /app
+    RUN pip install -r requirements.txt
+    ENTRYPOINT [ "python" ]
+    CMD [ "main.py" ]
     
     
     
