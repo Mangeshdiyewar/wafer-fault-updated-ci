@@ -4,7 +4,7 @@ backports.zoneinfo==0.2.1
 certifi==2019.11.28
 Click==7.0
 colorhash==1.1.0
-configparser==5.3.0
+configparser
 cycler==0.10.0
 Flask==1.1.1
 Flask-Cors==3.0.8
